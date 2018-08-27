@@ -20,3 +20,7 @@ sh pkg-install i3
 cd $PWD
 sh pkg-install rxvt-unicode
 
+# Install vim
+cd $PWD/vim
+sh vim.sh
+
