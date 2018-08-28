@@ -24,3 +24,6 @@ sh pkg-install rxvt-unicode
 cd $PWD/vim
 sh vim.sh
 
+# Download and install infinality
+cd $PWD/infinality
+sh infinality.sh

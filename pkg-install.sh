@@ -6,6 +6,6 @@ package=$1
 echo "Generating queue files for ${package}..."
 sqg -p $package
 
-# Install urxvt with dependencies
+# Install provided package with it's dependencies
 sbopkg -i $package
 

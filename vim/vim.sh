@@ -5,7 +5,8 @@ curl https://beyondgrep.com/ack-2.24-single-file > /usr/bin/ack && chmod 0755 /u
 
 # Install vim
 echo "Installing latest vim"
-# git clone https://github.com/vim/vim.git
+git clone https://github.com/vim/vim.git
+
 cd vim/src
 ./configure --with-features=huge \
             --enable-multibyte \
