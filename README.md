@@ -23,7 +23,7 @@ This a small collection of installation scripts that can automate the installati
   See more at https://i3wm.org/
  
   
-* ### primus & bumblebee
+* #### primus & bumblebee
   For laptops that come with an nVidia and Intel hybrid graphical processing unit.  
   See more at https://docs.slackware.com/howtos:hardware:nvidia_optimus
   
