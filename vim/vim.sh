@@ -27,3 +27,6 @@ make install
 # Override existing /usr/bin/vim for admin
 cp /usr/local/bin/vim /usr/bin/vim
 
+# Setup vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
