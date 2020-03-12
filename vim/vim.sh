@@ -12,9 +12,9 @@ cd vim/src
             --enable-multibyte \
 	    --enable-rubyinterp=yes \
 	    --enable-pythoninterp=yes \
-	    --with-python-config-dir=/usr/lib64/python2.7/config \ # pay attention here check directory correct
+        --with-python3-command=python3.7 \
 	    --enable-python3interp=yes \
-	    --with-python3-config-dir=/usr/lib64/python.3.6/config \
+        --with-python3-config-dir=/usr/lib64/python3.7/config-3.7m-x86_64-linux-gnu \
 	    --enable-perlinterp=yes \
 	    --enable-luainterp=yes \
             --enable-gui=gtk2 \
